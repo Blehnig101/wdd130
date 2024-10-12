@@ -2,6 +2,13 @@ body {
     background-color: rgb(124, 183, 230) 
 }
 
+#content {
+    background-color: lightblue;
+    max-width: 1000px;
+    margin: 0auto;
+
+}
+
 a {
     color: #000;
     font-size: 24px;
