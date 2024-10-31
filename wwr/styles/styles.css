@@ -22,7 +22,7 @@ nav {
 #hero {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 100px;
+
 }
 
 #hero-box {
@@ -35,7 +35,6 @@ nav {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
 
 }
 
@@ -142,7 +141,7 @@ nav a:hover {
 .msg {
     background-color: #ffeaab;
     line-height: 1.5em;
-    padding: 35px;
+    padding: 10px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;s
@@ -199,6 +198,7 @@ h4 {
 
 h2 {
     margin: 0;
+    color: white;
 
 }
 
@@ -229,6 +229,7 @@ h2 {
 .icon {
     width: 80px;
     padding-top: 10px;
+
 }
 
 footer .social img {
@@ -260,7 +261,7 @@ footer .social img {
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #6f7364;
 
 }
 
