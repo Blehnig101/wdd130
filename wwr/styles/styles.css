@@ -80,7 +80,7 @@ main section img {
 }
 
 body {
-    background-color: #396E94;
+    background-color: white;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -101,7 +101,7 @@ nav a:hover {
 
 .book {
     background-color: #396E94;
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -198,7 +198,7 @@ h4 {
 
 h2 {
     margin: 0;
-    color: white;
+    color: black;
 
 }
 
@@ -285,12 +285,34 @@ footer .social img {
 /*--------
 page 2 for the rafting site
 */
-.river-grid (
-    
-)
+.river-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    color: black;
+}
 
+.river-grid h2{
+    padding: 50px;
+}
 
+.river-grid img{
+    width: 300px;
+    border: #8dc2e8;
+    border-style: solid;
+    border-width: 10px;
+}
 
+.river-grid p {
+    padding-top: 100px;
+    text-align: center;
+    margin: 75px;
+}
+
+.hr-tag {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
 
 
 @media screen and (max-width: 900px) {
