@@ -96,7 +96,6 @@ header {
 }
 
 h1 {
-    width: 300px;
     color: white;
 }
 
@@ -138,6 +137,69 @@ h1 {
 #google-map {
     grid-column: 2/3;
     grid-row: 4/4;
+}
+
+/*-----page 2------*/
+
+#main2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#brown-bears-title {
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    color: black;
+    padding: 50px;
+}
+
+#brown-bears-title h1 {
+    color: black;
+}
+
+#brown-family {
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 2/4;
+    padding: 50px;
+}
+
+#brown-family img {
+    border: 10px solid rgba(0, 121, 10, 0.574);
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#brown-family p {
+    grid-column: 3/3;
+    padding: 50px;
+}
+
+#brown-size {
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    padding: 50px;
+}
+
+#brown-size img {
+    border: 10px solid rgba(0, 121, 10, 0.574);
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#brown-size p {
+    grid-column: 3/3;
+    padding: 50px;
+}
+
+#brown-map { 
+    grid-column: 2/3;
+    grid-row: 4/4;
+}
+
+#brown-map p { 
+    text-align: center;
 }
 
 
